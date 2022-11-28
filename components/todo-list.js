@@ -34,9 +34,9 @@ export class ToDoList extends LitElement {
                   @click=${() => this.toggleCompleted(item)}>
                 ${item.text}
               </li>`
-        )}
-      </ul>
-    `;
+            )}
+        </ul>
+        `;
     const caughtUpMessage = html`
       <p>
       You're all caught up!
